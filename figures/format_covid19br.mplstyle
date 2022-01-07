@@ -1,0 +1,52 @@
+
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # blue
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+
+font.size: 10.0
+
+#axes.facecolor: E5E5E5
+axes.edgecolor: 333333
+axes.linewidth: 1
+axes.grid: False
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: 333333
+axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
+
+axes.spines.bottom : True
+axes.spines.top    : False
+axes.spines.right  : False
+axes.spines.left  : True
+
+legend.frameon : False
+
+text.color : 333333
+
+axes.prop_cycle: cycler('color', ['E24A33', '348ABD', '988ED5', '777777', 'FBC15E', '8EBA42', 'FFB5B8'])
+                   # E24A33 : red
+                   # 348ABD : blue
+                   # 988ED5 : purple
+                   # 777777 : gray
+                   # FBC15E : yellow
+                   # 8EBA42 : green
+                   # FFB5B8 : pink
+
+xtick.color: 333333
+xtick.direction: in
+
+ytick.color: 333333
+ytick.direction: in
+
+grid.color: 111111
+grid.linestyle: --
+
+#figure.facecolor: white
+#figure.edgecolor: 0.50
+
+text.usetex : True
+xtick.labelsize : 24
+ytick.labelsize : 24
+
+#axes.facecolor : white
