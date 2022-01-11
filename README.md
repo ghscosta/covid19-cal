@@ -1,6 +1,24 @@
 # Compartmental epidemic model to assess undocumented infections: applications to SARS-CoV-2 epidemics in Brazil - Datasets and Codes
 
-This repository is part of the article "[]".
+The codes for simulations were written in Fortran and compiled with the Intel Fortran Compiler. Data analysis and figures were done Python 3.10 and the following open source libraries: [pandas](https://pandas.pydata.org/), [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/).
+
+In this repository we show codes for simulations and processing data, as well as datasets used.
+
+The preprint is available at <https://arxiv.org/abs/2201.03476>. The following `BibTeX` code can be used to cite it:
+
+```
+@misc{costa2022compartmental,
+      title={Compartmental epidemic model to assess undocumented infections: applications to SARS-CoV-2 epidemics in Brazil}, 
+      author={Guilherme S. Costa and Wesley Cota and Silvio C. Ferreira},
+      year={2022},
+      eprint={2201.03476},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.PE}
+}
+```
+
+See also *[Effects of infection fatality ratio and social contact matrices on vaccine prioritization strategies](https://arxiv.org/abs/2201.02869)* and *[Outbreak diversity in epidemic waves propagating through distinct geographical scales](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043306)*.
+
 
 ## Dictionaries
 
